@@ -445,6 +445,9 @@ right - 46px
 position: initial;
 width: auto;
 }
+.flip-clock-wrapper ul{
+  width: 27px;
+}
 .flip-clock-wrapper ul li{
-line-height: 22px;
+line-height: 22px !important;
 }
