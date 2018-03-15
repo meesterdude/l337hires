@@ -58,7 +58,7 @@
 						<h4 style="color:white">For companies, our matching process brings the talent to you and streamlines interviews&nbsp;</h4>
 						</div>
 						<div  id="mc_embed_signup" class="form-container">
-							<h3 class="title" style="text-align:center;">Hiring Done Right</h3>
+							<h3 id="title" style="text-align:center;">Hiring Done Right</h3>
 
 							<form action="https://l337hires.us8.list-manage.com/subscribe/post?u=8c1b0a8792e2e89196f2220b1&amp;id=c019d99a49" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
@@ -123,5 +123,20 @@
 <script src="//static.getclicky.com/js" type="text/javascript"></script>
 <script type="text/javascript">try{ clicky.init(101106633); }catch(e){}</script>
 <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101106633ns.gif" /></p></noscript>
-
+<script type='text/javascript'>
+	$(document).ready(function() {
+				// Grab the current date
+				var currentDate = new Date();
+				// Set some date in the future. In this case, it's always Jan 1
+				var futureDate  = new Date("April 12, 2018 11:13:00");;
+				// Calculate the difference in seconds between the future and current date
+				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+				// Instantiate a coutdown FlipClock
+				clock = $('#title').FlipClock(diff, {
+			
+					countdown: true
+				});
+			});
+	
+	</script>
 </body></html>
